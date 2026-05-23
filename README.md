@@ -1,26 +1,22 @@
-# 🐘 Loyal Elephie: Your Trusty Memory-enabled AI Companion 🧠
-<p align="center">
-  <img src=".public/image.png" alt="Your image description" width="200" style="display: block; margin: 0 auto;">
-</p>
-🚀 Embark on an exciting adventure with Loyal Elephie, your faithful AI sidekick! This project combines the power of a neat Next.js web UI and a mighty Python backend, leveraging the latest advancements in Large Language Models (LLMs) and Retrieval Augmented Generation (RAG) to deliver a seamless and meaningful chatting experience! 🎉
+# Loyal Elephie: Your Trusty Memory-enabled AI Companion 🧠
+
+ Embark on an exciting adventure with Loyal Elephie, your faithful AI sidekick! This project combines the power of a neat Next.js web UI and a mighty Python backend, leveraging the latest advancements in Large Language Models (LLMs) and Retrieval Augmented Generation (RAG) to deliver a seamless and meaningful chatting experience! 
 
 ## Features
 
-1. **🎛️ Controllable Memory:** Take control of Loyal Elephie's memory! You decide which moments to save, and you can easily edit the context as needed. It is your second-brain for episodic memory. ✍️
+1. **Controllable Memory:** Take control of Loyal Elephie's memory! You decide which moments to save, and you can easily edit the context as needed. It is your second-brain for episodic memory. 
 
-2. **🔍 Hybrid Search:** Experience the powerful combination of ChromaDB and BM25 for efficient searches! It's also optimized for handling date-relevant queries. 📅
+2. **Hybrid Search:** Experience the powerful combination of ChromaDB and BM25 for efficient searches! It's also optimized for handling date-relevant queries. 
 
-3. **🔒 Secure Web Access:** With a built-in login feature, only authorized users can access your AI companion, ensuring your conversations remain private and secure over the internet. 🛡️
+3. **Secure Web Access:** With a built-in login feature, only authorized users can access your AI companion, ensuring your conversations remain private and secure over the internet. 
 
-4. **🤖 Streamlined LLM Agent:** Loyal Elephie uses XML syntax with no function-calling required. It is also optimized for less token usage and works smoothly with great local LLMs using Llama.cpp or ExllamaV2. 💬
+4. **Streamlined LLM Agent:** Loyal Elephie uses XML syntax with no function-calling required. It is also optimized for less token usage and works smoothly with great local LLMs using Llama.cpp or ExllamaV2. 
 
-5. **📝 (Optional) Markdown Editor Integration:** Connect with online Markdown editors to view the original referred document during chats and experience real-time LLM knowledge integration after editing your notes online. 🌐
+5. **(Optional) Markdown Editor Integration:** Connect with online Markdown editors to view the original referred document during chats and experience real-time LLM knowledge integration after editing your notes online. 
 
 Loyal Elephie supports both open and proprietary LLMs and embeddings serving as OpenAI compatible APIs. 
 
 ![](.public/architecture.png)
-
-Warning: This project was originally designed for **Linux** and compatibility with Windows or macOS has not been fully tested. If you are using Windows, I strongly recommend you to run this project in **WSL**.
 
 
 ## Screenshots 
@@ -32,18 +28,15 @@ Warning: This project was originally designed for **Linux** and compatibility wi
 
 
 ![](.public/screenshot4.png)
-With [SilverBulletMd](https://github.com/silverbulletmd/silverbullet), you can edit a note on the browser and then let Loyal Elephie rememeber it!
 
 ![](.public/screenshot3.png)
-
-The UI is modified from https://github.com/mckaywrigley/chatbot-ui-lite. Credits to the author Mckay Wrigley!
 
 ## Deployment
 
 **1. Clone Repo**
 
 ```bash
-git clone https://github.com/v2rockets/Loyal-Elephie.git
+git clone https://github.com/davidlang422/Loyal-Elephie.git
 ```
 
 **2. Install Frontend Requirments**
