@@ -26,10 +26,10 @@ Loyal Elephie supports both open and proprietary LLMs and embeddings serving as 
 
 ![](.public/screenshot2.png)
 
+![](.public/screenshot3.png)
 
 ![](.public/screenshot4.png)
 
-![](.public/screenshot3.png)
 
 ## Deployment
 
